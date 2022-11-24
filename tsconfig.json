@@ -21,6 +21,13 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "next-env.d.ts",
+    "[**/*].ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
   ]
+
 }
