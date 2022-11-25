@@ -42,7 +42,7 @@ export default function App() {
           <Input error={errors.name} type="text" label="Nome" {...register('name')}/>
           <Input error={errors.email} type="email" label="E-mail" {...register('email')}/>
           <Input error={errors.cpf} type="text" label="CPF" {...register('cpf')}/>
-          <button className='bg-violet-700 w-full mt-6 shadow-md' type='submit'>Enviar</button>
+          <button className='bg-violet-700 w-full mt-6 shadow-md hover:brightness-90' type='submit'>Enviar</button>
         </form>
       </div>
     </div>

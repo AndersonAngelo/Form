@@ -13,7 +13,7 @@ const InputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = ({ lab
     <div className="h-20 flex flex-col gap-1 py-2 text-black">
       {!!label && <label htmlFor={name}>{label}</label>}
       <input 
-        className="px-1"
+        className="px-1" 
         id={name}
         name={name}
         type={type}
